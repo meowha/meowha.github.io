@@ -1,0 +1,505 @@
+﻿*{margin:0;padding:0;}
+
+.header{
+}
+.header .center{
+  height: 45px;
+  padding:20px 0;
+  border-bottom: 3px solid #FAEFE0;
+}
+.header .center .logo{
+  width:45px;
+  height: 45px;
+  margin-left: 20px;
+}
+.banner{
+  width:100%;
+  height: 400px;
+  overflow: hidden;
+  padding:20px 0;
+}
+.banner img{
+  width:100%;
+}
+.row1{
+  margin-top: 30px;
+}
+.row1 .center{
+  border-top: 3px solid #FAEFE0;
+  position: relative;
+  height: 1000px;
+  background: url(../image/bjsc.png);
+}
+.row1 .center .title{
+  font-size: 90px;
+  padding:20px 80px;
+  font-weight: 700;
+}
+.row1 .center .title p{
+  
+}
+.row1 .center .enTitle{
+  position: absolute;
+  left:900px;
+  top:100px;
+  width:480px;
+}
+.row1 .center .enTitle .enFont{
+  overflow: hidden;
+}
+.row1 .center .enTitle .enFont p{
+  float: left;
+  font-size: 70px;
+  font-weight: 700;
+  color: #faefe0;
+}
+.row1 .center .enTitle .enFont img{
+  float: right;
+  width:45px;
+  height: 45px;
+  color: #faefe0;
+  margin-top: 40px;
+}
+.row1 .center .enTitle .enFont2{
+  font-size: 70px;
+  font-weight: 700;
+  color: #faefe0;
+  text-align: center;
+  text-indent: 1em;
+  padding-top: 20px;
+}
+.row1 .center .title2{
+  font-weight: 700;
+  color: #faefe0;
+  font-size:110px;
+  position: absolute;
+  top:340px;
+  left:70px;
+}
+.row1 .center .row1Img{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 38.11785119% 36.78220914%;
+  right: 30px;
+  top:550px;
+}
+
+
+.row2{
+    overflow: hidden;
+  }
+  .row2 .center{
+    padding:150px 0;
+    background: url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row2 .center .left{
+    float:left;
+    padding:70px 0;
+  }
+  .row2 .center .left .title{
+    font-size: 70px;
+    font-weight: 700;
+  }
+  .row2 .center .left .subName{
+    padding:40px 20px 0;
+  }
+  .row2 .center .left .text{
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .row2 .center .left .desc {
+    padding:40px 20px;
+  }
+  .row2 .center .right{
+    float:right;
+  }
+  .row2 .center .right .headPic{
+    width:475px;
+    height: 475px;
+  }
+  
+  .row3{
+
+  }
+  .row3 .center{
+    width:1200px;
+    height: 600px;
+    text-align: center;
+    background:url(../image/bjsc.png) rgba(255,255,255,.5);
+  }
+  .row3 .center .smallTitle{
+    padding:200px 0 30px;
+    font-size:30px;
+    color:black;
+    opacity: 1;
+  }
+  
+  .row3 .center .bigTitle{
+    font-size:50px;
+    line-height: 70px;
+  }
+
+
+  .row4{
+    padding:80px 0;
+  }
+  .row4 .center{
+    height: 560px;
+    background:url(../image/snow.gif);
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .row4 .center .img1{
+    position: absolute;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .row4 .center .img2{
+    position: absolute;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  .row4 .center .title{
+    font-size: 150px;
+    font-weight: 700;
+  }
+  .row4 .center .subTitle{
+    letter-spacing: 6px;
+    font-size: 26px;
+    margin-top: 20px;
+  }
+
+  
+  .row5{
+    overflow: hidden;
+  }
+  .row5 .center{
+    padding:50px 0;
+    background:url(../image/bjsc.png);
+  }
+  .row5 .center .title{
+    font-size: 24px;
+  }
+  .row5 .center .imgList{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+  .row5 .center .imgList .imgItem{
+    padding-top: 30px;
+  }
+  .row5 .center .imgList .imgItem img{
+    width:220px;
+    height: 310px;
+    display: block;
+    margin:0 auto;
+  }
+
+  .row6{
+    overflow: hidden;
+  }
+  .row6 .center{
+    padding:50px 0;
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row6 .center .title{
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+  .row6 .center .imgList{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+  .row6 .center .imgList .imgItem{
+    padding:10px 20px;
+    overflow: hidden;
+  }
+  .row6 .center .imgList .imgItem img{
+    width:80%;
+    height: 250px;
+    display: block;
+    margin:0 auto;
+  }
+
+  .row7{
+    padding:1px 0;
+    overflow: hidden;
+  }
+  .row7 .center{
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row7 .center .imgList{
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+  }
+  .row7 .center .imgList .imgItem{
+    padding:1px 25px;
+    overflow: hidden;
+  }
+  .row7 .center .imgList .imgItem img{
+    width:65%;
+    height: 250px;
+    display: block;
+    margin:0 auto;
+  }
+
+  .row8{
+    overflow: hidden;
+  }
+  .row8 .center{
+    padding:100px 0;
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row8 .center .title{
+    font-size:24px
+  }
+  .row8 .center .imgList{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding:5px 0;
+    overflow: hidden;
+  }
+  .row8 .center .imgList .imgItem{
+    padding:30px 0;
+    overflow: hidden;
+  }
+  .row8 .center .imgList .imgItem img{
+    width:50%;
+    height: 260px;
+    display: block;
+    margin:0 auto;
+  }
+  
+  .row9{
+    padding:1px 0;
+    overflow: hidden;
+  }
+  .row9 .center{
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row9 .center .title{
+    font-size:24px
+  }
+  .row9 .center .imgList{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding:10px 0;
+    overflow: hidden;
+  }
+  .row9 .center .imgList .imgItem{
+    padding:30px 0;
+    overflow: hidden;
+  }
+  .row9 .center .imgList .imgItem img{
+    width:260px;
+    height: 380px;
+    display: block;
+    margin:0 auto;
+  }
+
+  
+  .row10{
+    overflow: hidden;
+  }
+  .row10 .center{
+    padding:50px 0;
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row10 .center .title{
+    font-size:24px;
+    padding:30px 0;
+  }
+  .row10 .center .imgList{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    padding:10px 0;
+    overflow: hidden;
+  }
+  .row10 .center .imgList .imgItem{
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  .row10 .center .imgList .imgItem img{
+    width:300px;
+    height: 300px;
+    display: block;
+    margin:0 auto;
+  }
+
+  .row10 .center .imgList .imgItem2{
+    padding:30px 0;
+    overflow: hidden;
+  }
+  .row10 .center .imgList .imgItem2 img{
+    width:300px;
+    height: 240px;
+    display: block;
+    margin:0 auto;
+  }
+
+  
+  .row11{
+    padding:1px 0;
+    overflow: hidden;
+  }
+  .row11 .center{
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row11 .center .img1{
+    text-align: center;
+  }
+  .row11 .center .img1 img{
+    width: 300px;
+    height: 200px;
+  }
+  .row11 .center .img2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding:1px 0;
+    overflow: hidden;
+  }
+  .row11 .center .img2 .contain{
+    text-align: center;
+  }
+  .row11 .center .img2 img{
+    width: 300px;
+    height: 200px;
+  }
+
+  
+  .row12{
+
+  }
+  .row12 .center .imgList{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+  .row13 .center .imgList .imgItem img {
+    width:288px;
+    height: 408px;
+  }
+
+
+  .row14{
+    padding:1px 0;
+    overflow: hidden;
+  }
+  .row14 .center{
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row14 .center .title{
+    font-size:24px
+  }
+  .row14 .center .imgList{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding:10px 0;
+    overflow: hidden;
+  }
+  .row14 .center .imgList .imgItem{
+    padding:30px 0;
+    overflow: hidden;
+  }
+  .row14 .center .imgList .imgItem img{
+    width:380px;
+    height: 290px;
+    display: block;
+    margin:0 auto;
+  }
+
+
+  .row15{
+    overflow: hidden;
+  }
+  .row15 .center{
+    padding:150px 0;
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row15 .img{
+    overflow: hidden;
+  }
+  .row15 .img img{
+    width:350px;
+    margin: 50px auto;
+    display: block;
+  }
+  .row15 .title{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  
+  body{
+    background:url(image/bjsc.png) #D4CAE4;
+  }
+  .center{
+    width:1400px;
+    margin:0 auto;
+  }
+
+  .row16{
+
+  }
+  .row16 .center{
+    position: relative;
+    background:url(../image/bjsc.png);
+    overflow: hidden;
+  }
+  .row16 .center .logo{
+    
+  }
+  .row16 .center .mainCentent{
+    position: absolute;
+    top:150px;
+    left:100px;
+    height: 600px;
+    right:100px;
+    bottom:20px;
+    background:rgba(255,255,255,.5);
+  }
+  .row16 .center .mainCentent .title{
+    font-size:60px;
+    margin-top: 250px;
+    text-align: center;
+  }
+  .row16 .center .mainCentent .navList{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+  }
+  .row16 .center .mainCentent .navItem{
+    text-align: center;
+    padding:40px 0 0;
+  }
+  .row16 .center .mainCentent .navItem .titleName{
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .row16 .center .mainCentent .navItem .titleEn{
+    font-size:20px;
+    padding:10px 0 50px;
+  }
+  .row16 .center .mainCentent .navItem .text{
+    font-size:20px;
+  }
+  .row16 .center .contract{
+    position: absolute;
+    bottom: -40px;
+    left:20px;
+  }
